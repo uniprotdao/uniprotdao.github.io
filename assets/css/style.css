@@ -1350,3 +1350,9 @@ main .footer .credit {
     margin-right: 0; /* Remove margin from the last icon */
 }
 
+.circle-logo {
+  border-radius: 50%; /* Makes the image circular */
+  /* width: 100px; Adjust the width as needed */
+  /* height: 100px; Adjust the height as needed */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
